@@ -1,0 +1,71 @@
+.container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0 20px 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 14px;
+  color: #549DED;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.15);
+}
+
+.pagination a.current-page {
+  color: white;
+  background: #549DED;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+input {
+  width: 36px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px;
+  padding: 12px 20px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  box-shadow: 0px 15px 20px -5px rgba(0,0,0,0.07);
+}
+
+.row:hover {
+  cursor: pointer;
+  box-shadow: 0px 15px 20px -5px rgba(0,0,0,0.15);
+}
+
+.row * {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.row img {
+  width: auto;
+  height: 55px;
+}
+
+.row .green {
+  color: green;
+}
+
+.row .red {
+  color: red;
+}

@@ -14,7 +14,8 @@ export let Page = () => {
     setInput(page);
   }, [location]);
 
-  console.log(page, input, 1);
+  // console.log(page, input, 1);
+  console.log("test");
 
   useEffect(() => {
     axios
